@@ -1,70 +1,70 @@
 Variable | Description | Source Label
 ---------|-------------|-------------
 subject  | prueba    | prueba
-activity
-tBodyAccmeanX
-tBodyAccmeanY
-tBodyAccmeanZ
-tBodyAccstdX
-tBodyAccstdY
-tBodyAccstdZ
-tGravityAccmeanX
-tGravityAccmeanY
-tGravityAccmeanZ
-tGravityAccstdX
-tGravityAccstdY
-tGravityAccstdZ
-tBodyAccJerkmeanX
-tBodyAccJerkmeanY
-tBodyAccJerkmeanZ
-tBodyAccJerkstdX
-tBodyAccJerkstdY
-tBodyAccJerkstdZ
-tBodyGyromeanX
-tBodyGyromeanY
-tBodyGyromeanZ
-tBodyGyrostdX
-tBodyGyrostdY
-tBodyGyrostdZ
-tBodyGyroJerkmeanX
-tBodyGyroJerkmeanY
-tBodyGyroJerkmeanZ
-tBodyGyroJerkstdX
-tBodyGyroJerkstdY
-tBodyGyroJerkstdZ
-tBodyAccMagmean
-tBodyAccMagstd
-tGravityAccMagmean
-tGravityAccMagstd
-tBodyAccJerkMagmean
-tBodyAccJerkMagstd
-tBodyGyroMagmean
-tBodyGyroMagstd
-tBodyGyroJerkMagmean
-tBodyGyroJerkMagstd
-fBodyAccmeanX
-fBodyAccmeanY
-fBodyAccmeanZ
-fBodyAccstdX
-fBodyAccstdY
-fBodyAccstdZ
-fBodyAccJerkmeanX
-fBodyAccJerkmeanY
-fBodyAccJerkmeanZ
-fBodyAccJerkstdX
-fBodyAccJerkstdY
-fBodyAccJerkstdZ
-fBodyGyromeanX
-fBodyGyromeanY
-fBodyGyromeanZ
-fBodyGyrostdX
-fBodyGyrostdY
-fBodyGyrostdZ
-fBodyAccMagmean
-fBodyAccMagstd
-fBodyBodyAccJerkMagmean
-fBodyBodyAccJerkMagstd
-fBodyBodyGyroMagmean
-fBodyBodyGyroMagstd
-fBodyBodyGyroJerkMagmean
-fBodyBodyGyroJerkMagstd
+activity | prueba    | prueba
+tBodyAccmeanX | prueba    | prueba
+tBodyAccmeanY | prueba    | prueba
+tBodyAccmeanZ | prueba    | prueba
+tBodyAccstdX | prueba    | prueba
+tBodyAccstdY | prueba    | prueba
+tBodyAccstdZ | prueba    | prueba
+tGravityAccmeanX | prueba    | prueba
+tGravityAccmeanY | prueba    | prueba
+tGravityAccmeanZ | prueba    | prueba
+tGravityAccstdX | prueba    | prueba
+tGravityAccstdY | prueba    | prueba
+tGravityAccstdZ | prueba    | prueba
+tBodyAccJerkmeanX | prueba    | prueba
+tBodyAccJerkmeanY | prueba    | prueba
+tBodyAccJerkmeanZ | prueba    | prueba
+tBodyAccJerkstdX | prueba    | prueba
+tBodyAccJerkstdY | prueba    | prueba
+tBodyAccJerkstdZ | prueba    | prueba
+tBodyGyromeanX | prueba    | prueba
+tBodyGyromeanY | prueba    | prueba
+tBodyGyromeanZ | prueba    | prueba
+tBodyGyrostdX | prueba    | prueba
+tBodyGyrostdY | prueba    | prueba
+tBodyGyrostdZ | prueba    | prueba
+tBodyGyroJerkmeanX | prueba    | prueba
+tBodyGyroJerkmeanY | prueba    | prueba
+tBodyGyroJerkmeanZ | prueba    | prueba
+tBodyGyroJerkstdX | prueba    | prueba
+tBodyGyroJerkstdY | prueba    | prueba
+tBodyGyroJerkstdZ | prueba    | prueba
+tBodyAccMagmean | prueba    | prueba
+tBodyAccMagstd | prueba    | prueba
+tGravityAccMagmean | prueba    | prueba
+tGravityAccMagstd | prueba    | prueba
+tBodyAccJerkMagmean | prueba    | prueba
+tBodyAccJerkMagstd | prueba    | prueba
+tBodyGyroMagmean | prueba    | prueba
+tBodyGyroMagstd | prueba    | prueba
+tBodyGyroJerkMagmean | prueba    | prueba
+tBodyGyroJerkMagstd | prueba    | prueba
+fBodyAccmeanX | prueba    | prueba
+fBodyAccmeanY | prueba    | prueba
+fBodyAccmeanZ | prueba    | prueba
+fBodyAccstdX | prueba    | prueba
+fBodyAccstdY | prueba    | prueba
+fBodyAccstdZ | prueba    | prueba
+fBodyAccJerkmeanX | prueba    | prueba
+fBodyAccJerkmeanY | prueba    | prueba
+fBodyAccJerkmeanZ | prueba    | prueba
+fBodyAccJerkstdX | prueba    | prueba
+fBodyAccJerkstdY | prueba    | prueba
+fBodyAccJerkstdZ | prueba    | prueba
+fBodyGyromeanX | prueba    | prueba
+fBodyGyromeanY | prueba    | prueba
+fBodyGyromeanZ | prueba    | prueba
+fBodyGyrostdX | prueba    | prueba
+fBodyGyrostdY | prueba    | prueba
+fBodyGyrostdZ | prueba    | prueba
+fBodyAccMagmean | prueba    | prueba
+fBodyAccMagstd | prueba    | prueba
+fBodyBodyAccJerkMagmean | prueba    | prueba
+fBodyBodyAccJerkMagstd | prueba    | prueba
+fBodyBodyGyroMagmean | prueba    | prueba
+fBodyBodyGyroMagstd | prueba    | prueba
+fBodyBodyGyroJerkMagmean | prueba    | prueba
+fBodyBodyGyroJerkMagstd | prueba    | prueba

@@ -26,6 +26,7 @@ smart_analysis<- function()
 	##Loading script dependencies
 	library(data.table)
 	library(dplyr)
+	library(stringr)
 
 	#Reading test and train files from UCI HAR Dataset source
 	xtestDF<-read.table("./UCI HAR Dataset/test/X_test.txt",stringsAsFactors=FALSE)
@@ -94,12 +95,23 @@ smart_analysis<- function()
 	##Renaming column labels removing "-","_","(", and ")" 
 	##characters. It makes possible converting the data frame in a data table
 	##to compute the tidy data set later
-	filteredDF<-as.data.frame(filteredDF)
 	names(filteredDF)<-gsub("^.*?_","",names(filteredDF))
 	names(filteredDF)<-gsub("-","",names(filteredDF))
 	names(filteredDF)<-gsub("\\)","",names(filteredDF))
 	names(filteredDF)<-gsub("\\(","",names(filteredDF))
-	
+	names(filteredDF)<-gsub("X","AxisX",names(filteredDF))
+	names(filteredDF)<-gsub("Y","AxisY",names(filteredDF))
+	names(filteredDF)<-gsub("Z","AxisZ",names(filteredDF))
+	names(filteredDF)<-gsub("mean","Mean",names(filteredDF))
+	names(filteredDF)<-gsub("std","STD",names(filteredDF))
+	names(filteredDF)<-gsub("tB","TimeB",names(filteredDF))
+	names(filteredDF)<-gsub("fB","FreqB",names(filteredDF))
+	names(filteredDF)<-gsub("tG","TimeG",names(filteredDF))
+	names(filteredDF)<-gsub("fG","FreqG",names(filteredDF))
+	names(filteredDF)<-gsub("Acc","Acceleration",names(filteredDF))
+	names(filteredDF)<-gsub("Gyro","Gyroscope",names(filteredDF))
+	names(filteredDF)<-gsub("BodyBody","Body",names(filteredDF))
+
 	##Computing an independent tidy data set, with the average of each variable 
 	## for each subject and activity
 	filteredDT<-as.data.table(filteredDF)

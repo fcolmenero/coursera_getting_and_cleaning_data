@@ -91,15 +91,17 @@ smart_analysis<- function()
 	mycols<-mynames[grep("std\\(|mean\\(|subject|activity",mynames)]
 	filteredDF<-completeDF[,mycols,with=FALSE]
 
-	##Renaming original column labels removing "-","_","(", and ")" 
-	##characters from them
+	##Renaming column labels removing "-","_","(", and ")" 
+	##characters. It makes possible converting the data frame in a data table
+	##to compute the tidy data set later
 	filteredDF<-as.data.frame(filteredDF)
 	names(filteredDF)<-gsub("^.*?_","",names(filteredDF))
 	names(filteredDF)<-gsub("-","",names(filteredDF))
 	names(filteredDF)<-gsub("\\)","",names(filteredDF))
 	names(filteredDF)<-gsub("\\(","",names(filteredDF))
 	
-	##Computing independent tidy data set
+	##Computing an independent tidy data set, with the average of each variable 
+	## for each subject and activity
 	filteredDT<-as.data.table(filteredDF)
 	groupsDT <- filteredDT[, lapply(.SD,mean),by=list(subject,activity)]
 	

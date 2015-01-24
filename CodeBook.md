@@ -15,12 +15,13 @@ From this devices 3-axial acceleration and angular speed signals are captured, f
 different components. 
 
 In this way:
-	-3-axial acceleration is decomposed into body and gravity component signals .
+
+* 3-axial acceleration is decomposed into body and gravity component signals.
 	
-	-3-axial body linear acceleration and angular velocity signals are transformed in Jerk signals.
+* 3-axial body linear acceleration and angular velocity signals are transformed in Jerk signals.
 	
-	-Magnitude for all these signals (body and gravity acceleration, angular speed and Jerk signals)
-	 is computed using Euclidean norm.
+* Magnitude for all these signals (body and gravity acceleration, angular speed and Jerk signals)
+  is computed using Euclidean norm.
 
 For some of these signals, a FFT (Fast Fourier Transform) calculation was applied.
 
